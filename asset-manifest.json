@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/belomestnov-shumilina/static/css/main.41000259.css",
+    "main.js": "/belomestnov-shumilina/static/js/main.ebca0d08.js",
+    "static/media/s1.png": "/belomestnov-shumilina/static/media/s1.b63f64ffb6acd6818db8.png",
+    "static/media/backg.png": "/belomestnov-shumilina/static/media/backg.27117213ca610e24fa3f.png",
+    "static/media/s2.png": "/belomestnov-shumilina/static/media/s2.03a30b32b78876f010da.png",
+    "static/media/cardback.png": "/belomestnov-shumilina/static/media/cardback.73ee64c0b452c6e71bf1.png",
+    "static/media/Leotaro-Regular.otf": "/belomestnov-shumilina/static/media/Leotaro-Regular.1d91f9593db13abde997.otf",
+    "static/media/goros.png": "/belomestnov-shumilina/static/media/goros.e9952902fe3299f48af0.png",
+    "static/media/Leotaro-Regular.woff": "/belomestnov-shumilina/static/media/Leotaro-Regular.5302ccc77d41e00e8a98.woff",
+    "static/media/Leotaro-Regular.woff2": "/belomestnov-shumilina/static/media/Leotaro-Regular.029d3ffb11087c282878.woff2",
+    "static/media/logo.png": "/belomestnov-shumilina/static/media/logo.5a60ee99c771b093383d.png",
+    "static/media/deva.png": "/belomestnov-shumilina/static/media/deva.a53ece475b99095c44bf.png",
+    "index.html": "/belomestnov-shumilina/index.html",
+    "main.41000259.css.map": "/belomestnov-shumilina/static/css/main.41000259.css.map",
+    "main.ebca0d08.js.map": "/belomestnov-shumilina/static/js/main.ebca0d08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41000259.css",
+    "static/js/main.ebca0d08.js"
+  ]
+}
