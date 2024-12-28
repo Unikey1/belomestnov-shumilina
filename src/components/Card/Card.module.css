@@ -1,0 +1,255 @@
+.card {
+    width: 350px; 
+    height: 450px;
+    background-image: url(../../images/cardback.png);
+    background-size: cover;
+    background-position: center; 
+    border-radius: 40px;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.titleCard {
+    font-family: 'Leotaro', sans-serif;
+    font-size: 33px;
+    margin-top: -35%;
+}
+
+.textCard {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.learnMore {
+    position: absolute; 
+    bottom: -30px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px 20px; 
+    background-color: #FFF6D1; 
+    color: #0F2594;
+    border: none; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    width: 60%; 
+    white-space: nowrap; 
+    text-align: center;  
+}
+
+.learnMore:hover {
+    background-color: #F4F4EF; 
+}
+
+.cardContact {
+    width: 500px; 
+    height: 350px;
+    background-image: url(../../images/cardback.png);
+    background-size: cover;
+    background-position: center; 
+    border-radius: 40px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 25px;
+    font-size: 30px;
+    cursor: none
+}
+
+.signCard {
+    width: 350px; 
+    height: 400px;
+    background-image: url(../../images/cardback.png);
+    background-size: cover;
+    background-position: center; 
+    border-radius: 40px;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4vh;
+    padding: 15px 25px;
+    cursor: pointer;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
+}
+
+.signCard:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 5, 0.5);
+}
+
+.title{
+    font-family: 'Leotaro', sans-serif;
+    font-size: 25px;
+}
+
+.text{
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+
+.img{
+    margin-right: 0;
+    width: 30%;
+    margin-left: 70%;
+    position: absolute;
+    margin-top: 90%;
+}
+
+@media (max-width: 1400px) {
+    .signCard {
+        width: 400px; 
+        height: 450px;
+        margin-top: 5vh;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 300px; 
+        height: 400px;
+    }
+    .titleCard {
+        font-size: 28px;
+    }
+    .textCard {
+        font-size: 18px;
+    }
+    .learnMore {
+        font-size: 20px;
+    }
+    .cardContact {
+        width: 400px; 
+        height: 300px;
+        font-size: 25px;
+    }
+    .signCard {
+        width: 390px; 
+        height: 440px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 230px; 
+        height: 330px;
+        border-radius: 30px;
+    }
+    .titleCard {
+        margin-top: 1px;
+        font-size: 23px;
+    }
+    .textCard {
+        font-size: 16px;
+    }
+    .learnMore {
+        font-size: 15px;
+    }
+    .cardContact {
+        width: 350px; 
+        height: 230px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+    .signCard {
+        width: 320px; 
+        height: 370px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 230px; 
+        height: 280px;
+        border-radius: 25px;
+    }
+    .titleCard {
+        margin-top: 1px;
+        font-size: 17px;
+    }
+    .textCard {
+        font-size: 13px;
+    }
+    .learnMore {
+        font-size: 12px;
+    }
+    .cardContact {
+        width: 280px; 
+        height: 200px;
+        font-size: 15px;
+        border-radius: 25px;
+    }
+    .signCard {
+        width: 280px; 
+        height: 320px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 150px; 
+        height: 200px;
+        border-radius: 15px;
+        padding: 0 10px;
+    }
+    .titleCard {
+        margin-top: 1px;
+        font-size: 12px;
+        margin-top: 0%;
+    }
+    .textCard {
+        font-size: 9px;
+    }
+    .learnMore {
+        padding: 10px 15px;
+        font-size: 7px;
+        bottom: -15px;
+    }
+    .cardContact {
+        width: 230px; 
+        height: 150px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .signCard {
+        width: 240px; 
+        height: 290px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,135 @@
+.more {
+    background-color: #FFF6D1;
+    color: #0F2594;
+    border-radius: 35px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.more:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 5, 0.9);
+    background-color: #F4F4EF; 
+}
+
+.conts {
+    background-color: #FFF6D1;
+    color: #0F2594;
+    border-radius: 35px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer; 
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.reviewBtn {
+    background-color: #FFF6D1;
+    color: #0F2594;
+    border-radius: 35px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer; 
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.reviewBtn:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 5, 0.5);
+    background-color: #F4F4EF; 
+}
+
+.conts:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 5, 0.5);
+    background-color: #F4F4EF; 
+}
+
+@media (max-width: 1200px) {
+    .more {
+        font-size: 20px;
+    }
+    .conts {
+        font-size: 20px;
+    }
+    .reviewBtn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .more {
+        font-size: 20px;
+        width: 400px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .conts {
+        font-size: 20px;
+        width: 400px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .reviewBtn {
+        font-size: 20px;
+        width: 400px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .more {
+        font-size: 15px;
+        width: 300px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .conts {
+        font-size: 15px;
+        width: 300px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .reviewBtn {
+        font-size: 15px;
+        width: 300px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .more {
+        font-size: 11px;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .conts {
+        font-size: 11px;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .reviewBtn {
+        font-size: 11px;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+}

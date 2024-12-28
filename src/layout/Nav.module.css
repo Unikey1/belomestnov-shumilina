@@ -1,0 +1,194 @@
+.header {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.logo {
+  width: 15%;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  margin-left: -15%;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  white-space: nowrap;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #FFF6D1;
+}
+
+.moreBtnCont {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.backg {
+  width: 100%;
+  background-image: url('../images/backg.png');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  border-radius: 35px;
+  margin: 3% 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 5vh;
+  color: white;
+}
+
+.line {
+  line-height: 0.5;
+  position: relative;
+}
+
+.imageLine {
+  display: inline-block;
+  margin: -2% 0;
+  padding: 5% 0;
+  background-image: url('../images/goros.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 71%;
+  line-height: 2;
+}
+
+.imageText {
+  position: relative;
+  font-size: 70px;
+  color: white;
+  font-family: 'Leotaro', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .backg {
+    width: 100%;
+    height: 60vh;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+  .header {
+    width: 100%;
+    height: 10rem;
+  }
+  .header ul {
+    margin-left: -15%;
+  }
+  .header li {
+    margin-left: 2rem;
+  }
+  .header a {
+    font-size: 1.3rem;
+    white-space: nowrap;
+  }  
+  .textContainer {
+    font-size: 4vh;
+  }
+  .imageText{
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .backg {
+    width: 100%;
+    height: 45vh;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+  .header {
+    width: 100%;
+    height: 10rem;
+  }
+  .header li {
+    margin-left: 2rem;
+  }
+  .header a {
+    font-size: 1rem;
+    white-space: nowrap;
+  }  
+  .textContainer {
+    font-size: 30px;
+  }
+  .imageLine {
+    width: 60%; 
+  }
+  .imageText{
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .backg {
+    width: 100%;
+    height: 40vh;
+    margin-top: 3%;
+  }
+  .header {
+    width: 100%;
+    height: 10rem;
+  }
+  .header ul {
+    margin-left: -13%;
+  }
+  .header a {
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }  
+  .textContainer {
+    font-size: 25px;
+  }
+  .imageText{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .backg {
+    width: 100%;
+    height: 35vh;
+    margin-top: 3%;
+  }
+  .header {
+    width: 100%;
+    height: 7rem;
+  }
+  .header a {
+    font-size: 0.55rem;
+    white-space: nowrap;
+  }  
+  .textContainer {
+    font-size: 2vh;
+  }
+}
