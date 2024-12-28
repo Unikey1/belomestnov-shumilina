@@ -44,6 +44,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 3%;
 }
 
 .backg {
@@ -51,9 +52,10 @@
   background-image: url('../images/backg.png');
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 700px;
   border-radius: 35px;
   margin: 3% 0;
+  margin-bottom: 40%;
 }
 
 .textContainer {
@@ -137,6 +139,9 @@
     font-size: 1rem;
     white-space: nowrap;
   }  
+  .logo {
+    margin-top: -2%;
+  }
   .textContainer {
     font-size: 30px;
   }
@@ -165,6 +170,9 @@
     font-size: 0.7rem;
     white-space: nowrap;
   }  
+  .logo {
+    margin-top: -2%;
+  }
   .textContainer {
     font-size: 25px;
   }
@@ -176,12 +184,13 @@
 @media (max-width: 576px) {
   .backg {
     width: 100%;
-    height: 300px;
+    height: 250px;
     margin-top: 3%;
+    margin-bottom: 80%;
   }
   .header {
     width: 100%;
-    height: 7rem;
+    height: 5rem;
   }
   .header li {
     margin-left: 1rem;
@@ -189,7 +198,10 @@
   .header a {
     font-size: 0.45rem;
     white-space: nowrap;
-  }  
+  } 
+  .logo {
+    margin-top: -2%;
+  }
   .textContainer {
     font-size: 17px;
   }

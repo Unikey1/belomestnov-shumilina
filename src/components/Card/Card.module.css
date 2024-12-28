@@ -218,8 +218,8 @@
 
 @media (max-width: 576px) {
     .card {
-        width: 130px; 
-        height: 180px;
+        width: 100px; 
+        height: 150px;
         border-radius: 15px;
         padding: 0 10px;
     }
@@ -232,24 +232,24 @@
         font-size: 7px;
     }
     .learnMore {
-        padding: 10px 15px;
+        padding: 10px 5px;
         font-size: 7px;
         bottom: -15px;
     }
     .cardContact {
-        width: 230px; 
+        width: 165px; 
         height: 150px;
         font-size: 12px;
         border-radius: 20px;
     }
     .signCard {
-        width: 240px; 
-        height: 290px;
+        width: 200px; 
+        height: 250px;
     }
     .title{
-        font-size: 16px;
+        font-size: 12px;
     }
     .text{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
