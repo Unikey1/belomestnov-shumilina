@@ -218,18 +218,18 @@
 
 @media (max-width: 576px) {
     .card {
-        width: 150px; 
-        height: 200px;
+        width: 130px; 
+        height: 180px;
         border-radius: 15px;
         padding: 0 10px;
     }
     .titleCard {
         margin-top: 1px;
-        font-size: 12px;
+        font-size: 10px;
         margin-top: 0%;
     }
     .textCard {
-        font-size: 9px;
+        font-size: 7px;
     }
     .learnMore {
         padding: 10px 15px;

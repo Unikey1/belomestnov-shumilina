@@ -84,8 +84,8 @@ footer{
 		margin: auto;
     }
 	body {
-		background-size: 350px 350px, 250px 250px;
-		background-position: bottom -10% left -60%, bottom -10% right -25%;
+		background-size: 300px 300px, 200px 200px;
+		background-position: bottom -15% left -170%, bottom -10% right -55%;
 	}
 	footer{
 		font-size: 12px;
