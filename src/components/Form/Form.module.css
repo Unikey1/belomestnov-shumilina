@@ -114,9 +114,11 @@ button:hover {
 @media (max-width: 576px) {
     .form p {
         font-size: 12px;
+        margin-bottom: 2vh;
     }
     input {
         font-size: 10px;
+        margin-bottom: 2vh;
     }
     button {
         font-size: 10px;
