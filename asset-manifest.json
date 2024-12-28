@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/belomestnov-shumilina/static/css/main.9e9236dd.css",
+    "main.css": "/belomestnov-shumilina/static/css/main.f8c14cca.css",
     "main.js": "/belomestnov-shumilina/static/js/main.4263dbeb.js",
     "static/media/s1.png": "/belomestnov-shumilina/static/media/s1.b63f64ffb6acd6818db8.png",
     "static/media/backg.png": "/belomestnov-shumilina/static/media/backg.27117213ca610e24fa3f.png",
@@ -13,11 +13,11 @@
     "static/media/logo.png": "/belomestnov-shumilina/static/media/logo.5a60ee99c771b093383d.png",
     "static/media/deva.png": "/belomestnov-shumilina/static/media/deva.a53ece475b99095c44bf.png",
     "index.html": "/belomestnov-shumilina/index.html",
-    "main.9e9236dd.css.map": "/belomestnov-shumilina/static/css/main.9e9236dd.css.map",
+    "main.f8c14cca.css.map": "/belomestnov-shumilina/static/css/main.f8c14cca.css.map",
     "main.4263dbeb.js.map": "/belomestnov-shumilina/static/js/main.4263dbeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e9236dd.css",
+    "static/css/main.f8c14cca.css",
     "static/js/main.4263dbeb.js"
   ]
 }
